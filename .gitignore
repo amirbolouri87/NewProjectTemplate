@@ -273,7 +273,7 @@ tags
 dump.rdb
 
 ### Project template
-zekavat_test/media/
+test_project/media/
 
 .pytest_cache/
 .env

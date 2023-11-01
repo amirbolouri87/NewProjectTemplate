@@ -1,4 +1,4 @@
-# Translations for the zekavat_test project
+# Translations for the test_project project
 # Copyright (C) 2023 amir
 # amir <amir@example.com>, 2023.
 #

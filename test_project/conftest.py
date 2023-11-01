@@ -1,7 +1,7 @@
 import pytest
 
-from zekavat_test.users.models import User
-from zekavat_test.users.tests.factories import UserFactory
+from test_project.users.models import User
+from test_project.users.tests.factories import UserFactory
 
 
 @pytest.fixture(autouse=True)

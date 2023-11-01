@@ -76,14 +76,14 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # https://docs.djangoproject.com/en/dev/ref/settings/#default-from-email
 DEFAULT_FROM_EMAIL = django_env(
     "DJANGO_DEFAULT_FROM_EMAIL",
-    default="zekavat_test <noreply@example.com>",
+    default="test_project <noreply@example.com>",
 )
 # https://docs.djangoproject.com/en/dev/ref/settings/#server-email
 SERVER_EMAIL = django_env("DJANGO_SERVER_EMAIL", default=DEFAULT_FROM_EMAIL)
 # https://docs.djangoproject.com/en/dev/ref/settings/#email-subject-prefix
 EMAIL_SUBJECT_PREFIX = django_env(
     "DJANGO_EMAIL_SUBJECT_PREFIX",
-    default="[zekavat_test] ",
+    default="[test_project] ",
 )
 
 # ADMIN

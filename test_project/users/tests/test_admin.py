@@ -1,6 +1,6 @@
 from django.urls import reverse
 
-from zekavat_test.users.models import User
+from test_project.users.models import User
 
 
 class TestUserAdmin:

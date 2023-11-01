@@ -3,12 +3,12 @@ from django.db.models import CharField, EmailField
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
-from zekavat_test.users.managers import UserManager
+from test_project.users.managers import UserManager
 
 
 class User(AbstractUser):
     """
-    Default custom user model for zekavat_test.
+    Default custom user model for test_project.
     If adding fields that need to be filled at user signup,
     check forms.SignupForm and forms.SocialSignupForms accordingly.
     """

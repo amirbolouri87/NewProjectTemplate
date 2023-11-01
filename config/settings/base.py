@@ -7,8 +7,8 @@ from decouple import config
 import environ
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
-# zekavat_test/
-APPS_DIR = BASE_DIR / "zekavat_test"
+# test_project/
+APPS_DIR = BASE_DIR / "test_project"
 env = environ.Env()
 
 READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=False)
@@ -91,7 +91,7 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    "zekavat_test.users",
+    "test_project.users",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -192,7 +192,7 @@ TEMPLATES = [
                 "django.template.context_processors.static",
                 "django.template.context_processors.tz",
                 "django.contrib.messages.context_processors.messages",
-                "zekavat_test.users.context_processors.allauth_settings",
+                "test_project.users.context_processors.allauth_settings",
             ],
         },
     }
@@ -279,13 +279,13 @@ ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
 ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
-ACCOUNT_ADAPTER = "zekavat_test.users.adapters.AccountAdapter"
+ACCOUNT_ADAPTER = "test_project.users.adapters.AccountAdapter"
 # https://django-allauth.readthedocs.io/en/latest/forms.html
-ACCOUNT_FORMS = {"signup": "zekavat_test.users.forms.UserSignupForm"}
+ACCOUNT_FORMS = {"signup": "test_project.users.forms.UserSignupForm"}
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
-SOCIALACCOUNT_ADAPTER = "zekavat_test.users.adapters.SocialAccountAdapter"
+SOCIALACCOUNT_ADAPTER = "test_project.users.adapters.SocialAccountAdapter"
 # https://django-allauth.readthedocs.io/en/latest/forms.html
-SOCIALACCOUNT_FORMS = {"signup": "zekavat_test.users.forms.UserSocialSignupForm"}
+SOCIALACCOUNT_FORMS = {"signup": "test_project.users.forms.UserSocialSignupForm"}
 
 
 # Your stuff...

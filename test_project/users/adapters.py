@@ -9,7 +9,7 @@ from django.http import HttpRequest
 
 if typing.TYPE_CHECKING:
     from allauth.socialaccount.models import SocialLogin
-    from zekavat_test.users.models import User
+    from test_project.users.models import User
 
 
 class AccountAdapter(DefaultAccountAdapter):

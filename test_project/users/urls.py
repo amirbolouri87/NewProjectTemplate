@@ -1,6 +1,6 @@
 from django.urls import path
 
-from zekavat_test.users.views import (
+from test_project.users.views import (
     user_detail_view,
     user_redirect_view,
     user_update_view,

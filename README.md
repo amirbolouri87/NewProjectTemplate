@@ -1,4 +1,4 @@
-# zekavat_test
+# test_project
 
 Behold My Awesome Project!
 
@@ -27,7 +27,7 @@ For convenience, you can keep your normal user logged in on Chrome and your supe
 
 Running type checks with mypy:
 
-    $ mypy zekavat_test
+    $ mypy test_project
 
 ### Test coverage
 

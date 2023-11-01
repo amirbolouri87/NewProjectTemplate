@@ -3,7 +3,7 @@ import django.contrib.auth.validators
 from django.db import migrations, models
 import django.utils.timezone
 
-import zekavat_test.users.models
+import test_project.users.models
 
 
 class Migration(migrations.Migration):
@@ -105,7 +105,7 @@ class Migration(migrations.Migration):
                 "abstract": False,
             },
             managers=[
-                ("objects", zekavat_test.users.models.UserManager()),
+                ("objects", test_project.users.models.UserManager()),
             ],
         ),
     ]

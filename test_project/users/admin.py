@@ -4,7 +4,7 @@ from django.contrib.auth import admin as auth_admin
 from django.contrib.auth import get_user_model, decorators
 from django.utils.translation import gettext_lazy as _
 
-from zekavat_test.users.forms import UserAdminChangeForm, UserAdminCreationForm
+from test_project.users.forms import UserAdminChangeForm, UserAdminCreationForm
 
 User = get_user_model()
 

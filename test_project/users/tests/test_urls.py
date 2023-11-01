@@ -1,6 +1,6 @@
 from django.urls import resolve, reverse
 
-from zekavat_test.users.models import User
+from test_project.users.models import User
 
 
 def test_detail(user: User):

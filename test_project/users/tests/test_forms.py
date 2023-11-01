@@ -3,8 +3,8 @@ Module for all Form Tests.
 """
 from django.utils.translation import gettext_lazy as _
 
-from zekavat_test.users.forms import UserAdminCreationForm
-from zekavat_test.users.models import User
+from test_project.users.forms import UserAdminCreationForm
+from test_project.users.models import User
 
 
 class TestUserAdminCreationForm:
