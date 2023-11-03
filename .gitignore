@@ -266,7 +266,6 @@ Session.vim
 
 # Auto-generated tag files
 tags
-.idea
 
 # Redis dump file
 dump.rdb
@@ -277,4 +276,5 @@ test_project/media/
 .pytest_cache/
 .env
 .envs/*
+.idea/*
 !.envs/.local/
