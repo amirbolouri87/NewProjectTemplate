@@ -9,6 +9,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.idea/*
 build/
 develop-eggs/
 dist/
@@ -276,5 +277,4 @@ test_project/media/
 .pytest_cache/
 .env
 .envs/*
-.idea/*
 !.envs/.local/
